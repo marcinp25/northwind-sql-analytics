@@ -164,8 +164,7 @@ before it shows up in monthly summaries.
 
 ## How to Run
 
-1. Restore the Northwind database into PostgreSQL (scripts available at
-   [github.com/pthom/northwind_psql](https://github.com/pthom/northwind_psql)).
+1. Restore the Northwind database into PostgreSQL (search for "northwind postgresql" to find the setup scripts)..
 2. Open `northwind_analysis.sql` in pgAdmin 4 or any PostgreSQL client.
 3. Execute each section independently — queries are fully self-contained.
 
