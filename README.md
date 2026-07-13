@@ -173,14 +173,6 @@ before it shows up in monthly summaries.
 
 ---
 
-## How to Run
-
-1. Restore the Northwind database into PostgreSQL (search for "northwind postgresql" to find the setup scripts)..
-2. Open `northwind_analysis.sql` in pgAdmin 4 or any PostgreSQL client.
-3. Execute each section independently — queries are fully self-contained.
-
----
-
 ## Tech Stack
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)
