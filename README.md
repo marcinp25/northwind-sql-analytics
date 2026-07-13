@@ -93,15 +93,17 @@ category.  Main query joins back to `products` and `categories`, exposes
 **Problem:** Marketing wants a "premium tier" catalogue list per category for
 seasonal promotions and bundle design.  Ties must be handled fairly.
 
-**SQL approach:** `DENSE_RANK()` inside a CTE partitions by `category_id`,
-ranks by price descending.  `DENSE_RANK` (not `RANK`) means two equally-priced
-products both appear — no arbitrary exclusion.  Outer query filters `<= 3`.
+**SQL approach:** `DENSE_RANK()` inside a CTE ranks products 
+by price descending, separately for each category. Unlike `RANK`, 
+`DENSE_RANK` never skips a number after a tie — so both products 
+get rank 2 and the next one gets rank 3, not rank 4. 
+Outer query filters `<= 3`.
 
 **Outcome / next step:**
-- Categories returning fewer than 3 products signal a thin catalogue — a gap
-  that product sourcing can fill.
-- The list feeds directly into promotional copy, gift-set curation, or loyalty
-  programme rewards.
+- A category with fewer than 3 results has a narrow product 
+  range — an opportunity to expand the catalogue.
+- The top-3 list per category is ready to use for premium 
+  promotions, gift sets, or loyalty programme rewards
 
 ![Product Rankings](./results/result_4.png)
 
