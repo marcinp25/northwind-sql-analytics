@@ -39,7 +39,6 @@ remaining so they can issue purchase orders before shelves empty.
 product's own threshold.
 
 **Outcome / next step:** Any row returned = immediate purchase order.
-Plug this query into a scheduled morning report or a BI dashboard alert.
 
 ![Inventory Results](./results/result_1.png)
 
