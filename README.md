@@ -100,10 +100,10 @@ get rank 2 and the next one gets rank 3, not rank 4.
 Outer query filters `<= 3`.
 
 **Outcome / next step:**
-- A category with fewer than 3 results has a narrow product 
-  range — an opportunity to expand the catalogue.
+- All 8 categories return exactly 3 products — the catalogue 
+  is well-stocked across every segment.
 - The top-3 list per category is ready to use for premium 
-  promotions, gift sets, or loyalty programme rewards
+  promotions, gift sets, or loyalty programme rewards.
 
 ![Product Rankings](./results/result_4.png)
 
