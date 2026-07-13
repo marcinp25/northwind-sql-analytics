@@ -125,6 +125,8 @@ Only products with `units_on_order > 0` are included (active exposure only).
   safety-stock increase.
 - Balanced distribution (no single product above ~30 %) → lower risk profile,
   no immediate action needed.
+- Produce (100%) and Grains/Cereals (87,50%) represent critical 
+  single-product dependency — immediate dual-sourcing review recommended.
 
 ![Market Share](./results/result_5.png)
 
