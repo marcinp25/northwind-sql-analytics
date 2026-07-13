@@ -44,7 +44,7 @@ product's own threshold.
 
 ---
 
-### 2 · Sales-Rep Performance
+### 2 · Sales Performance by Employee
 
 **Problem:** Annual reviews and bonus calculations require fair, discount-
 adjusted revenue figures per employee.  Gross revenue would overstate
