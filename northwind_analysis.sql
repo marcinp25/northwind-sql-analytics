@@ -119,7 +119,7 @@ FROM products p
 JOIN CategoryAverage ca ON p.category_id = ca.category_id
 JOIN categories      c  ON p.category_id = c.category_id
 WHERE p.unit_price > ca.avg_price
-ORDER BY c.category_name, premium_over_avg DESC;
+ORDER BY premium_over_avg DESC, c.category_name;
 -- result_3.png
 
 
@@ -204,7 +204,7 @@ SELECT
 FROM products   p
 JOIN categories c ON p.category_id = c.category_id
 WHERE p.units_on_order > 0
-ORDER BY c.category_name, product_order_value DESC;
+ORDER BY pct_of_category DESC, c.category_name;
 -- result_5.png
 
 
