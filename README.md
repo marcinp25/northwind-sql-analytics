@@ -57,8 +57,8 @@ efficiency — a rep closing many small orders looks different from one closing
 few large ones.
 
 **Outcome / next step:**
-- Large gap between rank 1 and rank 2 → investigate territory or product
-  portfolio allocation.
+- Large gap between top and bottom performers → investigate 
+  territory or product portfolio allocation.
 - Low `avg_revenue_per_order` despite high order count → coaching on
   upselling or discount discipline.
 
