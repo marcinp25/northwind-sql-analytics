@@ -77,8 +77,12 @@ category.  Main query joins back to `products` and `categories`, exposes
 `premium_over_avg` as a concrete currency figure rather than a ratio.
 
 **Outcome / next step:**
-- High premium + strong sales volume → protect pricing, use in marketing.
-- High premium + declining orders → review pricing or add value narrative.
+- Large `premium_over_avg` → flag for category manager to justify 
+  the price to buyers or investigate sales volume separately.
+- Small `premium_over_avg` → product sits just above average, 
+  pricing is likely healthy.
+- Extreme outlier (e.g. Côte de Blaye +225 over average) → 
+  requires individual business case review.
 
 ![Pricing Analysis](./results/result_3.png)
 
