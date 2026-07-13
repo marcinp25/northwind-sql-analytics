@@ -7,8 +7,10 @@
 
 ## The Business Context
 
-Northwind Traders is a wholesale food distributor.  Like most companies at this
-scale, it accumulates data in three areas that directly affect profitability:
+Northwind Traders is a classic SQL training database modelling 
+a wholesale food distributor. This project goes beyond the data — 
+each query answers a real operational question and ends with 
+a concrete business recommendation.
 
 | Area | Raw data available | Question that needs answering |
 |---|---|---|
