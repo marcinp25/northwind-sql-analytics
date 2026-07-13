@@ -146,11 +146,13 @@ before it shows up in monthly summaries.
   smooths day-to-day noise while remaining responsive to real shifts.
 
 **Outcome / next step:**
-- Rising moving average over multiple weeks → healthy momentum, no action.
-- Moving average flattens while running total still grows → growth rate is
-  decelerating; investigate causes before the monthly report.
-- Spike in `daily_revenue` not reflected in `moving_avg_3d` → one-off bulk
-  order; exclude from forecast revisions.
+- `moving_avg_3d` rising consistently → revenue trend is healthy, 
+  no action needed.
+- `moving_avg_3d` falling while `running_total` still grows → 
+  growth is slowing down, investigate before the monthly report.
+- `daily_revenue` spike not reflected in `moving_avg_3d` 
+  (e.g. 1996-07-09: 3,597 vs avg 2,555) → one-off large order, 
+  do not adjust forecasts.
 
 ![Time Series](./results/result_6.png)
 
