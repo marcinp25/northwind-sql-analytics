@@ -68,9 +68,9 @@ few large ones.
 
 ### 3 · Above-Average Pricing by Category
 
-**Problem:** Category managers need to justify premium prices to buyers or flag
-anomalies.  A product priced well above its category peers either has a strong
-value proposition or is at risk of being dropped by price-sensitive customers.
+**Problem:** Which products cost significantly more than others 
+in their category? A high price is either justified by strong 
+sales — or a pricing anomaly that could be hurting sales volume.
 
 **SQL approach:** CTE (`CategoryAverage`) pre-calculates the mean price per
 category.  Main query joins back to `products` and `categories`, exposes
