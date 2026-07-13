@@ -167,7 +167,7 @@ before it shows up in monthly summaries.
 | CTE (Common Table Expression) | 3, 6 |
 | DENSE_RANK() window function | 4 |
 | SUM() OVER(PARTITION BY) | 5 |
-| NULLIF (division-by-zero guard) | 5 |
+| NULLIF (division-by-zero guard) | 2, 5 |
 | Running total | 6 |
 | Moving average (ROWS BETWEEN frame) | 6 |
 
