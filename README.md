@@ -176,4 +176,7 @@ before it shows up in monthly summaries.
 ## Tech Stack
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-Advanced-blue)
+
+## License
+This project is for educational and portfolio purposes only. 
+Data source: Northwind sample database (Microsoft).
